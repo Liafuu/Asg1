@@ -8,6 +8,7 @@ I want to help grow the band's audience count as it is very underrated, with onl
 With a good website, it is a good way to help grow their audience for those curious enough to check the band out.
 - As a student who likes listening to music and finding out the stories behind them, I would like to access those stories easily with only a few clicks of a button.
 - As a fan of the band, I would like to be redirected to their merchandise store with ease.
+
 Wireframes : https://xd.adobe.com/view/e8eeb7eb-fb08-4282-8835-1a147a2f6833-bdbd/
 
 ## Features
@@ -16,7 +17,7 @@ Wireframes : https://xd.adobe.com/view/e8eeb7eb-fb08-4282-8835-1a147a2f6833-bdbd
 - Feature 2 -- It allows users to find the short stories for their songs.
 - Feature 3 -- It allows users to navigate to their merchandise store.
 ### Features left to Implement
-- blank
+- Blank
 
 ## Technologies used
 - Visual Studio Code
