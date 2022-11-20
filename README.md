@@ -18,21 +18,12 @@ Wireframes : https://xd.adobe.com/view/e8eeb7eb-fb08-4282-8835-1a147a2f6833-bdbd
 ### Features left to Implement
 - blank
 
-## Research
-'Amehurashi' is a **japanese indie band**, whose first song was officially posted on YouTube in 11th June 2021.
-Consisting of 葉露/haro (Vocal), biz (Music and Guitar), 雪月/yuzuki (Music and Drums) aa
-
-## Intent and Purpose
-This site is for the audience of the japanese indie band 'Amehurashi'.
-It details their short band profiles, their songs and their respective short stories, and their merch.
-It is catering for the audience of Amehurashi or those who are curious about the band,
-reading the short stories about their songs and buying their merch.
-
 ## Technologies used
 - Visual Studio Code
     - This project uses Visual Studio Code to make the html files.
 
-
+## Testing
+- Blank
 
 ## Credits
 ### Media
