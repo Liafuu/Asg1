@@ -10,6 +10,7 @@ With a good website, it is a good way to help grow their audience for those curi
 - As a fan of the band, I would like to be redirected to their merchandise store with ease.
 
 Wireframes : https://xd.adobe.com/view/e8eeb7eb-fb08-4282-8835-1a147a2f6833-bdbd/
+Current Site : https://liafuu.github.io/XC-Asg1/
 
 ## Features
 ### Existing Features
