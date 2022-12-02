@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.top {
+    background-color:rgba(232, 226, 226, 0.55);
+    position:relative;
+}
+
+.bgimage {
+    position:relative;
+}
+
+.bg {
+    opacity:0.9;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:auto;
+}
+
+body {
+    margin:0;
+}
