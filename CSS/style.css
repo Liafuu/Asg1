@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 /*Navigation Bar code*/
 .mainnav {
@@ -12,14 +13,14 @@
     
 .mainnav a {
     float: none;
-    color: #3b3bde;
+    color: black;
     padding: 16px 50px;
     text-decoration: none;
     font-size: 19px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
     
 .mainnav a:hover {
-    background-color: rgba(232, 226, 226, 0.64);
     color: #8585ff;
 }
 
