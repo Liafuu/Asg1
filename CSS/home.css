@@ -1,38 +1,56 @@
 @charset "UTF-8";
 
 /* Main Animation */
+body {
+    margin:0;
+}
 
 .top {
     background-color:rgba(232, 226, 226, 0.55);
     width:100%;
     position:relative;
     opacity: 1;
-    animation:fadeIn 4s ease-in;
+    animation:topFade 4s ease-in;
 }
 
 .bgimage {
     position:relative;
 }
 
-body {
-    margin:0;
-}
 
 .bg {
     position:absolute;
-    left:0;
-    top:0;
+    left:0px;
+    top:0px;
     width:100%;
     height:auto;
 
     /* Animation */
-    animation:fadeIn 2.5s ease-out;
-    opacity:0.85;
-    z-index: -50;
+    animation:backgroundFade 2.5s ease-out;
+    opacity:0.55;
+    z-index:-50;
 }
 
 /* Animation */
-@keyframes fadeIn {
+@keyframes backgroundFade {
     0% {opacity: 0;}
-    100% {opacity: 0.85;}
+    100% {opacity: 0.55;}
+}
+
+@keyframes topFade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* --- */
+/* Social Media Icons */
+
+.stuff {
+    display:flex;
+    align-content:flex-end;
+    justify-content:center;
+}
+.socialIcon {
+    width:50px;
+    height:auto;
 }

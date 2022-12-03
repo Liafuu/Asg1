@@ -23,8 +23,9 @@
     color: #8585ff;
 }
 
-/*Header for Icons*/
-.icons{
+/*Header for main icon*/
+.mainIcon{
     display:flex;
     justify-content:center; 
 }
+
