@@ -1,23 +1,38 @@
 @charset "UTF-8";
 
+/* Main Animation */
+
 .top {
     background-color:rgba(232, 226, 226, 0.55);
+    width:100%;
     position:relative;
+    opacity: 1;
+    animation:fadeIn 4s ease-in;
 }
 
 .bgimage {
     position:relative;
 }
 
+body {
+    margin:0;
+}
+
 .bg {
-    opacity:0.9;
     position:absolute;
     left:0;
     top:0;
     width:100%;
     height:auto;
+
+    /* Animation */
+    animation:fadeIn 2.5s ease-out;
+    opacity:0.85;
+    z-index: -50;
 }
 
-body {
-    margin:0;
+/* Animation */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 0.85;}
 }
