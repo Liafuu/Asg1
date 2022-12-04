@@ -34,7 +34,7 @@
 .top {
     background-color:rgba(232, 226, 226, 0.55);
     width:100%;
-    animation:topFade 3s ease-in;
+    animation:topFade 2s ease-in;
     opacity: 1;
 }
 @keyframes topFade {

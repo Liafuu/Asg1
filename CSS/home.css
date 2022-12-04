@@ -9,10 +9,11 @@ body {
     position:relative;
 }
 
+
+/* Background Image */
 .bgimage {
     position:relative;
 }
-
 
 .bg {
     position:absolute;
@@ -38,7 +39,7 @@ body {
 .vidMain {
     display:flex;
     justify-content:center;
-    animation: vidFade 5s ease-in-out;
+    animation: vidFade 3s ease-in-out;
 }
 
 @keyframes vidFade {
@@ -57,7 +58,7 @@ body {
 .socialIcon {
     width:50px;
     height:auto;
-    animation: socialFade 5s ease-in-out;
+    animation: socialFade 3s ease-in-out;
 }
 
 @keyframes socialFade {
