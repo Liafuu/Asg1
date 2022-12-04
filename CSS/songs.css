@@ -1,1 +1,128 @@
 @charset "UTF-8";
+
+body{
+  margin:0;
+  background-image:radial-gradient(circle, rgba(0,0,0,0),rgba(0,0,0,0),rgba(37, 145, 227, 0.481));
+}
+* {box-sizing:border-box}
+
+.top {
+  position:relative;
+}
+
+/* --- */
+/* Slideshow */
+.SongSlides {
+  position: relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  margin: auto;
+  animation: mainFade 3s ease-in-out;
+}
+
+.slideImage {
+  width:750px;
+  height:auto;
+}
+
+/* Hide the images by default */
+.Songs {
+  display: none;
+}
+
+/* Caption text */
+.capt {
+  font-family:'Nanum Gothic', sans-serif; font-size:20px;
+  background-color: rgba(241, 240, 240, 0.578);
+  color: #000000;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Animations */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes mainFade {
+  0% {opacity: 0}
+  30% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes bgFade {
+  0% {opacity: 0}
+  100%{opacity: 1}
+}
+
+/* --- */
+/* Cards */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  background-color:red;
+  text-align:center;
+}
+
+.cardimg {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius:0 4px 8px 0;
+}
+
+.card1 {background-color: rgba(45, 82, 218, 0.5);}
+.card2 {background-color: rgba(197, 22, 233, 0.5);}
+.card3 {background-color: rgba(224, 121, 36, 0.5);}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */ 
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
