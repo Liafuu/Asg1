@@ -39,3 +39,15 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     text-align:center;
 }
+
+/* --- */
+/* About Fade */
+.aboutPage {
+    animation: abtFade 3s ease-in-out;
+}
+
+@keyframes abtFade {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+}
