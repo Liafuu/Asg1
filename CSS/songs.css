@@ -61,13 +61,18 @@ body{
   100% {opacity: 1}
 }
 
-@keyframes bgFade {
+@keyframes cardsFade {
   0% {opacity: 0}
-  100%{opacity: 1}
+  40% {opacity: 0}
+  100% {opacity: 1}
 }
 
 /* --- */
 /* Cards */
+.row {
+  animation: cardsFade 3s ease-in-out;
+}
+
 .column {
   float: left;
   width: 33.3%;
@@ -95,9 +100,9 @@ body{
   border-radius:0 4px 8px 0;
 }
 
-.card1 {background-color: rgba(45, 82, 218, 0.5);}
-.card2 {background-color: rgba(197, 22, 233, 0.5);}
-.card3 {background-color: rgba(224, 121, 36, 0.5);}
+.card1 {background-color: rgba(45, 82, 218, 0.35);}
+.card2 {background-color: rgba(197, 22, 233, 0.35);}
+.card3 {background-color: rgba(224, 121, 36, 0.35);}
 
 /* Some left and right padding inside the container */
 .container {
@@ -113,16 +118,24 @@ body{
 
 .button {
   border: none;
+  border-radius: 7px 7px 7px 7px;
   outline: 0;
   display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
+  padding: 12px;
+  color: black;
+  background-color: white;
   text-align: center;
+  font-family: 'Manrope', sans-serif;
   cursor: pointer;
-  width: 100%;
+  width: 30%;
 }
 
 .button:hover {
   background-color: #555;
+}
+
+/* --- */
+/* Text Decoration */
+.desc {
+  font-family: 'Nanum Gothic', sans-serif;
 }

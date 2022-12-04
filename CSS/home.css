@@ -47,22 +47,3 @@ body {
     40% {opacity: 0;}
     100% {opacity: 1;}
 }
-
-/* --- */
-/* Social Media Icons */
-.bot {
-    display:flex;
-    align-content:flex-end;
-    justify-content:center;
-}
-.socialIcon {
-    width:50px;
-    height:auto;
-    animation: socialFade 3s ease-in-out;
-}
-
-@keyframes socialFade {
-    0% {opacity: 0;}
-    70% {opacity: 0;}
-    100% {opacity: 1;}
-}
