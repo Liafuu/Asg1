@@ -31,7 +31,8 @@
     justify-content:center; 
 }
 
-
+/* --- */
+/* Navigation Bar Styling */
 .top {
     background-color:rgba(232, 226, 226, 0.55);
     width:100%;
@@ -44,6 +45,7 @@
     100% {opacity: 1;}
 }
 
+/*Footer Stylings*/
 .bot {
     display:flex;
     align-content:flex-end;
