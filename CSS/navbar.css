@@ -25,6 +25,10 @@
     color: #8585ff;
 }
 
+.mainnav .current {
+    color:#8585ff;
+}
+
 /*Header for main icon*/
 .mainIcon{
     display:flex;
