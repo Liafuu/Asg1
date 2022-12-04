@@ -23,8 +23,14 @@ body{
 }
 
 .slideImage {
-  width:750px;
+  width:800px;
   height:auto;
+}
+
+.txt {
+  text-align:center;
+  font-family: 'Nanum Gothic', sans-serif;
+  animation: cardsFade 3s ease-in-out;
 }
 
 /* Hide the images by default */
