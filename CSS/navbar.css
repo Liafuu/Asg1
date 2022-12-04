@@ -30,3 +30,13 @@
     justify-content:center; 
 }
 
+
+.top {
+    animation:topFade 3s ease-in;
+    opacity: 1;
+}
+@keyframes topFade {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+}

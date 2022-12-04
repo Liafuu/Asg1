@@ -9,8 +9,6 @@ body {
     background-color:rgba(232, 226, 226, 0.55);
     width:100%;
     position:relative;
-    opacity: 1;
-    animation:topFade 3s ease-in;
 }
 
 .bgimage {
@@ -35,12 +33,6 @@ body {
 @keyframes backgroundFade {
     0% {opacity: 0;}
     100% {opacity: 0.55;}
-}
-
-@keyframes topFade {
-    0% {opacity: 0;}
-    30% {opacity: 0;}
-    100% {opacity: 1;}
 }
 
 /* --- */
