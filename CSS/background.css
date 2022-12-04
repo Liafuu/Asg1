@@ -34,6 +34,18 @@ body {
     100% {opacity: 0.55;}
 }
 
+@keyframes vidFade {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes cardFade {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 /* --- */
 /* Video for Home Page */
 .vidMain {
@@ -42,8 +54,29 @@ body {
     animation: vidFade 3s ease-in-out;
 }
 
-@keyframes vidFade {
-    0% {opacity: 0;}
-    40% {opacity: 0;}
-    100% {opacity: 1;}
+/* --- */
+/* Card for Merch page */
+.merch {
+    display:block;
+    margin-left:auto; margin-right:auto;
+    text-align:center;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+    width: 23%;
+    animation: cardFade 3s ease-in-out;
+}
+  
+.merch:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.merchIMG {
+    width:350px;
+    height:auto;
+}
+  
+.cont {
+    padding: 2px 16px;
 }
